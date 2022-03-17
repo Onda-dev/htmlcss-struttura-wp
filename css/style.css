@@ -61,3 +61,10 @@ header {
     background-color: lightblue;
     float: left;
 }
+
+/* Footer */
+footer {
+    height: 80px;
+    background-color: plum;
+    margin-top: 10px;
+}
