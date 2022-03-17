@@ -1,3 +1,4 @@
+/* Common */
 * {
     margin: 0;
     padding: 0;
@@ -8,8 +9,55 @@
     max-width: 1000px;
     margin: auto;
 }
-
+/* Header */
 header {
     height: 100px;
     background-color: palevioletred;
+}
+
+/* Main */
+.slide {
+    height: 400px;
+    background-color: burlywood;
+    margin-top: 20px;
+}
+
+.layout {
+    padding-bottom: 20px;
+    background-color: rgb(0, 140, 255);
+    margin-top: 20px;
+}
+
+.row {
+    height: 80px;
+    background-color: lightblue;
+    margin-bottom: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.column-left {
+    width: 20%;
+    height: 500px;
+    background-color: lightblue;
+    float: left;
+}
+
+.column-mid {
+    width: calc(60% - 40px);
+    height: 500px;
+    background-color: lightblue;
+    margin: 0px 20px;
+    float: left;
+}
+
+.column-right {
+    width: 20%;
+    height: 500px;
+    background-color: lightblue;
+    float: left;
 }
